@@ -1,0 +1,39 @@
+<html>
+
+  <head>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/SomeCtrl.js"></script>
+    <link href="../bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" />
+  </head>
+
+  <body ng-app="myApp" class="container" ng-controller = "SomeCtrl">
+
+   <row>
+        <div class="col-md-offset-2 col-md-3">
+          <input type="text" class="form-control" ng-model="item_name" placeholder="Enter an item">          
+        </div>
+        <div class="col-md-2">
+          <input type="text" class="form-control" ng-model="item_quantity" placeholder="Quantity">          
+        </div>
+        <div class="col-md-1">
+          <button class="glyphicon glyphicon-plus btn btn-success" ng-click="addItem()"></button>
+        </div>
+      </row>
+
+      <br/>
+
+      <row>
+      <div class=" col-md-offset-2 col-md-6">
+      <table class="table" >
+        <tr ng-repeat="item in shopping_list">
+          <td>{{item.name}}</td>
+          <td>{{item.quantity}}</td>
+        </tr>
+      </table>
+      </div>
+      </row>
+
+  </body>
+
+</html>

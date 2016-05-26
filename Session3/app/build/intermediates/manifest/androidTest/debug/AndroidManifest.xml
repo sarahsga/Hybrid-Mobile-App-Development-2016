@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="activityplay.sarahsga.neduet.session2review.test">
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="activityplay.sarahsga.neduet.session2review"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for activityplay.sarahsga.neduet.session2review"/>
+</manifest>

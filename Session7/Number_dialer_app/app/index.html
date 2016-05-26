@@ -1,0 +1,32 @@
+<html>
+
+  <head>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/SomeCtrl.js"></script>
+    <link href="../bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" />
+  </head>
+
+  <body ng-app="myApp" class="container" ng-controller = "SomeCtrl">
+
+
+        <div class="grid">
+
+          <div class="row">
+              <div class="col-md-3" align="center">
+                  <p>{{calc_screen}}</p>
+              </div>
+          </div>
+
+          <div class="row" ng-repeat="row in number_list">
+            <button ng-repeat="col in row"  ng-click="btn_click(col)" class="btn btn-primary col-md-1 my-btn">
+            {{col}}
+            </button>
+          </div>
+
+        </div>
+
+
+  </body>
+
+</html>

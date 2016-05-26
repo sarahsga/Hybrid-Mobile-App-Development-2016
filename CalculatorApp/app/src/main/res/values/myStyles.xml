@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buttonDefault">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">1px</item>
+        <item name="android:textSize">@dimen/abc_text_size_large_material</item>
+        <item name="android:onClick">handleBtnClick</item>
+    </style>
+
+
+    <style name="buttonDefault.darkText">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="buttonDefault.darkText.numbers">
+        <item name="android:background">#CFD8DC</item>
+    </style>
+
+    <style name="buttonDefault.ops">
+        <item name="android:background">@color/color_ops</item>
+    </style>
+
+    <style name="buttonDefault.moreOps">
+        <item name="android:background">#009688</item>
+    </style>
+
+</resources>

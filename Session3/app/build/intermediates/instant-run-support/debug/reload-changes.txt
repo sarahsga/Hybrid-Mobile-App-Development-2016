@@ -1,0 +1,10 @@
+CHANGED,E:\Projects\andorid\Session2Review\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\activityplay\sarahsga\neduet\session2review\R$styleable$override.class
+CHANGED,E:\Projects\andorid\Session2Review\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,E:\Projects\andorid\Session2Review\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\activityplay\sarahsga\neduet\session2review\R$style$override.class
+CHANGED,E:\Projects\andorid\Session2Review\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\activityplay\sarahsga\neduet\session2review\R$integer$override.class
+CHANGED,E:\Projects\andorid\Session2Review\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\activityplay\sarahsga\neduet\session2review\R$mipmap$override.class
+CHANGED,E:\Projects\andorid\Session2Review\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\activityplay\sarahsga\neduet\session2review\R$string$override.class
+CHANGED,E:\Projects\andorid\Session2Review\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$id$override.class
+CHANGED,E:\Projects\andorid\Session2Review\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\activityplay\sarahsga\neduet\session2review\SecondActivity$override.class
+CHANGED,E:\Projects\andorid\Session2Review\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\activityplay\sarahsga\neduet\session2review\R$id$override.class
+CHANGED,E:\Projects\andorid\Session2Review\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\activityplay\sarahsga\neduet\session2review\R$layout$override.class
