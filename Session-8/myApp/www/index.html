@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/SomeCtrl.js"></script>
+  </head>
+  <body ng-app="starter" ng-controller="MainCtrl">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">My App Session 8 dsfhjsdh</h1>
+      </ion-header-bar>
+      <ion-content style="background: #ffc900;" >
+
+      
+      <div class="list list-inset myDiv">
+        <label class="item item-input">
+          <input ng-model="someObj.count" type="text" placeholder="Enter number of apples">
+        </label>
+         
+
+      </div>
+
+      <p style="text-align: center">{{someObj.price | currency: "Rs. "}}</p>
+      <button class="button button-positive" ng-click="btn_clicked()">
+        Price
+      </button>
+
+
+
+
+
+
+<!-- 
+
+      <div class="list" >
+        <label class="item item-input" style="margin:10px">
+          <input type="text" placeholder="Enter number of Apples" ng-model="fruit.count">
+        </label>
+
+        <label style="margin: 10px; text-align: center;  font-weight:bold !important; font-size:medium;">
+        <p style="margin:10px">{{price | currency : "Rs. "}}</p>
+        </label>
+
+        <div align="center" style="margin:10px;">
+          <button ng-click="calculate_price()" 
+            class="button button-positive" style="padding-left: 30px; padding-right: 30px; ">
+          Calculate price
+          </button>
+        </div>
+ -->
+        
+
+
+
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>
