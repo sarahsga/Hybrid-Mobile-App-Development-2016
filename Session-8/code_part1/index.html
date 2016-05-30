@@ -1,0 +1,22 @@
+<head>
+
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="app/app.js"></script>
+<script src="app/SomeCtrl.js"></script>
+<link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
+
+</head>
+
+
+<body ng-app='someApp' class="container" ng-controller="MainCtrl">
+
+<input type="text" ng-model="count" placeholder="Enter number of apples" />
+
+<button class="btn btn-success" ng-click="btn_clicked()">Price</button>
+
+<br/>
+
+
+<p >{{price}}</p>
+
+</body>
